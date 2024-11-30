@@ -1,0 +1,49 @@
+{
+	"expo": {
+		"name": "Dr. Fish",
+		"slug": "drfish-app",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/images/icon.png",
+		"scheme": "myapp",
+		"userInterfaceStyle": "automatic",
+		"splash": {
+			"image": "./assets/images/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#222227"
+		},
+		"assetBundlePatterns": [
+			"**/*"
+		],
+		"ios": {
+			"supportsTablet": true,
+			"bundleIdentifier": "com.mrdhakal.drfishapp"
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/images/adaptive-icon.png",
+				"backgroundColor": "#ffffff"
+			},
+			"package": "com.mrdhakal.drfishapp"
+		},
+		"web": {
+			"bundler": "metro",
+			"output": "static",
+			"favicon": "./assets/images/favicon.png"
+		},
+		"plugins": [
+			"expo-router"
+		],
+		"experiments": {
+			"typedRoutes": true
+		},
+		"extra": {
+			"router": {
+				"origin": false
+			},
+			"eas": {
+				"projectId": "5f672c51-c06f-4943-92e5-5a6edb6f1fc8"
+			}
+		}
+	}
+}
